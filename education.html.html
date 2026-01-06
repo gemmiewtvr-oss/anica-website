@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anica Navaja | Education</title>
+
+<style>
+/* BODY WITH LAVENDER PASTEL BACKGROUND AND GRADIENT */
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: url("https://source.unsplash.com/1600x900/?pastel,pink,background") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(245,240,255,0.7));
+    z-index: -1;
+}
+
+/* CONTAINER WITH BONDPAPER STYLE AND FLOATING EFFECT */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #FDECEF;
+    border-radius: 20px;
+    padding: 60px 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 100% 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: #6a1b9a;
+    border-bottom: 3px solid #b29dd9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* INTRO TEXT */
+.intro-text {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* EDUCATION ITEMS */
+.edu-item {
+    margin-bottom: 25px;
+}
+
+.edu-item h3 {
+    margin-bottom: 8px;
+    color: #4a148c;
+}
+
+.edu-item p {
+    margin: 2px 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+    .container{
+        padding: 40px 20px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- INTRODUCTION -->
+    <h1>Introduction</h1>
+    <p class="intro-text">
+        Hi! I’m <strong>Anica Navaja</strong>, a dedicated and passionate student who loves learning and exploring new skills in the world of Information and Communication Technology (ICT).  
+        <br><br>
+        I enjoy taking on challenges, discovering creative solutions, and helping others along the way. With a strong sense of responsibility and motivation, I aim to grow not just academically, but personally as well.  
+        <br><br>
+        I believe that with curiosity, perseverance, and a positive mindset, every experience becomes an opportunity to learn, improve, and make a meaningful impact.
+    </p>
+
+    <!-- EDUCATION -->
+    <h2>Educational Background</h2>
+
+    <div class="edu-item">
+        <h3>College (Present)</h3>
+        <p>Cebu Technological University – Main Campus</p>
+        <p>Bachelor of Technology and Livelihood Education (BTLED)</p>
+        <p>Major in ICT</p>
+        <p>2023 – Present</p>
+    </div>
+
+    <div class="edu-item">
+        <h3>Senior High School</h3>
+        <p>Ramon Duterte – ICT Strand</p>
+    </div>
+
+    <div class="edu-item">
+        <h3>Secondary</h3>
+        <p>Abellana National School</p>
+    </div>
+
+    <div class="edu-item">
+        <h3>Elementary</h3>
+        <p>Guadalupe Elementary School</p>
+    </div>
+
+</div>
+<footer>
+© 2025 Anica Navaja | Educational Background
+</footer>
+</body>
+<nav style="text-align:center; margin-bottom:30px;">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About Me</a> |
+  <a href="education.html">Education</a>
+</nav>
+</html>
